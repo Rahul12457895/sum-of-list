@@ -1,0 +1,10 @@
+list= []
+x= int(input("how many numbers: "))
+
+a=0
+for i in range(x):
+    num= int(input("enter a number: "))
+    a= a+num
+list.append(a)
+    
+print(list)
