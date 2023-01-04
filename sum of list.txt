@@ -1,10 +1,8 @@
-list= []
-x= int(input("how many numbers: "))
-
-a=0
-for i in range(x):
-    num= int(input("enter a number: "))
-    a= a+num
-list.append(a)
-    
-print(list)
+def total(list1):
+    a = 0
+    for i in list1:
+         a = a+i
+    print("sum of list is :" , a)    
+                
+   
+total([1,2,3,4,10])
